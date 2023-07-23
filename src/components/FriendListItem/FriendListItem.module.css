@@ -1,0 +1,33 @@
+.item {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    padding: 14px 12px;
+    width: calc((100% - 12px * 4) / 5);
+  
+    border-radius: 4px;
+    background-color: rgb(187, 192, 199);
+  }
+  
+  .status {
+    display: block;
+    width: 14px;
+    height: 14px;
+  
+    background-color: rgb(150, 76, 76);
+    border-radius: 50%;
+  
+  }
+  
+  .status.online {
+    background-color: rgb(32, 134, 32);
+  
+  }
+  
+  .name {
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(18, 45, 66);
+  }
+  
